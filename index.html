@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>nome do jogo e </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#questgems">Token</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+       
+
+        <section id="questgems">
+            <h2>Home</h2>
+            <p> questgems .</p>
+        </section>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Informações sobre mim ou sobre o site.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Detalhes de como entrar em contato comigo.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Site</p>
+    </footer>
+    <script src="index.js"></script>
+
+    <main>
+        <div class="fixed-top d-flex" style="margin-top: 5em;">
+          <div class="d-flex flex-column position-absolute top-0 end-0">
+            <!--<div class="p-2"><a href="#facebook" title="share facebook"><img src="./images/1/btn_facebook.png" style="width: 3em;"/></a></div>-->
+            <div class="p-2"><a href="https://twitter.com/AxieChampions" target="_blank" title="share x"><img src="./images/1/btn_x.png" style="width: 3em;"></a></div>
+            <div class="p-2"><a href="https://discord.com/channels/1085868643449049140/1169932621111894026" target="_blank" title="share discord"><img src="./images/1/btn_discord.png" style="width: 3em;"></a></div>
+          </div>
+        </div>
+  
+        <nav class="d-flex navbar navbar-expand-lg fixed-top p-0" aria-label="Main navigation">
+          <div class="container-fluid px-0">
+            <a class="navbar-brand mx-4 p-0" href="/"><img src="./images/menu_0Logo.png"></a>
+            <button class="navbar-toggler p-2 border-0" type="button" id="navbarSideCollapse" data-bs-toggle="offcanvas-collapse" data-bs-target="offcavasNavbar" aria-controls="offcavasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div id="offcavasNavbar" class="navbar-collapse offcanvas-collapse" style="display: block!important;">
+              <ul class="navbar-nav nav nav-pills nav-fill">
+                <li class="nav-item flex-fill menu1 active">
+                  <a class="nav-link btn-menu1" href="#menu1">HOME</a>
+                </li>
+                <li class="nav-item flex-fill menu2">
+                  <a class="nav-link btn-menu2" href="#menu2">TOKEN</a>
+                </li>
+                <li class="nav-item flex-fill menu3">
+                  <a class="nav-link btn-menu3" href="#menu3">INTRODUCTION</a>
+                </li>
+                <li class="nav-item flex-fill menu4">
+                  <a class="nav-link btn-menu4" href="#menu4">BACKSTORY</a>
+                </li>
+                <li class="nav-item flex-fill menu5">
+                  <a class="nav-link btn-menu5" href="#menu5">CHAMPIONS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+        <div class="container-fluid p-0 sections">
+          <section id="menu1" class="main-section container-fluid">
+            <div class="row justify-content-center" style="margin-top: 5em;">
+              <div class="menu1-images col-10 text-center position-relative">
+                
+                <img class="img-fluid position-absolute top-0 start-0 translate-middle-y d-md-none d-sm-none d-none d-lg-block d-xl-block d-xxl-block" src="./images/1/img_01_Character02.png" style="z-index: 1;">
+                <img class="img-fluid position-absolute top-0 start-50 translate-middle-x" src="./images/1/img_01_logo.png" style="z-index: 100;width: 25em;">
+                <img class="img-fluid position-absolute top-100 end-0 translate-middle-y d-md-none d-sm-none d-none d-lg-block d-xl-block d-xxl-block" src="./images/1/img_01_Character01.png" style="z-index: 1;width: 20em;">
+              </div>
+            </div>
+            <div class="row justify-content-center" style="margin-top: -5em;">
+              <div class="col-10 text-center">
+                <img class="img-fluid d-lg-none d-xl-none d-xxl-none" src="./images/1/img_01_Character01.png" style="z-index: 1;">
+              </div>
+            </div>
+  
+            <div class="menu1-btn row justify-content-center">
+              <div class="col-6 text-center">
+                <p><a href="https://hub.skymavis.com/games/axie-champions" title="install from MavisHub" target="_blank"><img class="img-fluid" src="./images/btn_install.png" style="z-index: 99;"></a></p>
+                <p><a href="./download/axieChampions-0.8.5-148.apk" title="apk download play now" target="_blank"><img class="img-fluid" src="./images/btn_play2.png" style="z-index: 99;"></a></p>
+              </div>
+            </div>
+          </section>
+          <section id="menu2" class="main-section container-fluid">
+            <div class="p-2 px-0 container flex-fill text-center">
+              <div id="token-list" class="d-flex">
+                <div class="flex-fill text-center token-el">
+                  <div class="p-2"><img class="img-fluid token-img" src="./images/2/img_cube.png"></div>
+                  <div class="p-2 token-name" style="color: #00C6FF;">CUBE</div>
+                  <div class="p-2 token-desc" style="color: #7EE2FF;">CUBE is a premium in-game currency in Axie Champions. CUBE is used to purchase and use items or features required for Axie Champions core gameplay.</div>
+                </div>
+                <div class="d-flex p-2 m-2">
+                  <div>&nbsp;</div>
+                </div>
+                <div class="flex-fill text-center token-el">
+                  <div class="p-2"><img class="img-fluid token-img" src="./images/2/img_axs.png"></div>
+                  <div class="p-2 token-name" style="color: #646DF7;">AXS</div>
+                  <div class="p-2 token-desc" style="color: #92A6E0;">Launched in November 2020, it is relatively new in the Axie Infiniti world. AXS is the ERC-20 governance token for the Axi Universe.</div>
+                </div>
+                <div class="d-flex p-2 m-2">
+                  <div>&nbsp;</div>
+                </div>
+                <div class="flex-fill text-center token-el">
+                  <div class="p-2"><img class="img-fluid token-img" src="./images/2/img_ronin.png"></div>
+                  <div class="p-2 token-name" style="color: #1273EA;">RONIN</div>
+                  <div class="p-2 token-desc" style="color: #7DB5FA;">Launched in January 2022, RON is the native token of the RONIN Blockchain. A key component of the Ecosystem developed by Sky Mavis for Axie Infinity.</div>
+                </div>
+              </div>
+            </div>
+            <div class="p-0 mt-4 container flex-fill text-center d-block d-lg-none d-xl-none d-xxl-none">
+              <div class="d-flex flex-column justify-content-center ">
+                <div class="p-0"><img class="img-fluid" src="./images/2/img_in.jpg"></div>
+                <div class="p-2"><img class="img-fluid" src="./images/2/img_arrow_Y_down.png"></div>
+                <div class="px-3 py-2 token-el align-items-center"><video src="./champions_play.mp4" width="100%" autoplay="" muted="" loop=""></video></div>
+                <div class="p-2"><img class="img-fluid" src="./images/2/img_arrow_G_down.png"></div>
+                <div class="p-0"><img class="img-fluid" src="./images/2/img_out.jpg"></div>
+              </div>
+            </div>
+            <div class="p-0 mt-4 container flex-fill text-center d-md-none d-sm-none d-none d-lg-block d-xl-block d-xxl-block">
+              <div class="d-flex flex-row justify-content-center">
+                <div class="px-3 py-2 w-50 token-el d-flex align-items-center"><video src="./champions_play.mp4" width="100%" autoplay="" muted="" loop=""></video></div>
+                <div class="p-0 mx-2 d-flex align-items-center">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item my-4"><img class="img-fluid" src="./images/2/img_arrow_Y.png"></li>
+                    <li class="list-group-item my-4"><img class="img-fluid" src="./images/2/img_arrow_G.png"></li>
+                  </ul>
+                </div>
+                <div class="p-0 w-50 d-flex flex-column align-items-center">
+                    <div class="m-0 p-2 w-100 mb-1 d-flex flex-row">
+                      <img class="img-fluid w-100" src="./images/2/img_in.jpg">
+                    </div>
+                    <div class="m-0 p-2 w-100 d-flex flex-row">
+                      <img class="img-fluid w-100" src="./images/2/img_out.jpg">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="menu3" class="main-section container-fluid">
+            <div class="p-2 px-2 container flex-fill text-center">
+              <div class="row justify-content-center">
+                <div class="splide col-10 is-overflow is-initialized splide--loop splide--ltr splide--draggable is-active" role="group" data-splide="{&quot;type&quot;:&quot;loop&quot;,&quot;perMove&quot;: 1, &quot;gap&quot;: &quot;2em&quot;}" id="splide01" aria-roledescription="carousel">
+                  <div class="splide__track splide__track--loop splide__track--ltr splide__track--draggable" id="splide01-track" style="padding-left: 0px; padding-right: 0px;" aria-live="off" aria-atomic="true" aria-busy="false">
+                    <ul class="splide__list" id="splide01-list" role="presentation" style="transform: translateX(-738.938px);">
+                      <li class="splide__slide splide__slide--clone" id="splide01-clone01" role="tabpanel" aria-roledescription="slide" aria-label="2 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_02.jpeg" title="Use Skills &amp; Beat Enemies!"></li><li class="splide__slide splide__slide--clone" id="splide01-clone02" role="tabpanel" aria-roledescription="slide" aria-label="3 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_03.jpeg" title="Build Your Champion Team!"></li><li class="splide__slide splide__slide--clone" id="splide01-clone03" role="tabpanel" aria-roledescription="slide" aria-label="4 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_04.jpeg" title="Collect Various Champions!"></li><li class="splide__slide splide__slide--clone" id="splide01-clone04" role="tabpanel" aria-roledescription="slide" aria-label="5 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_05.jpeg" title="Upgrade Axies &amp; Champions"></li><li class="splide__slide splide__slide--clone" id="splide01-clone05" role="tabpanel" aria-roledescription="slide" aria-label="6 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_06.jpeg" title="Chanllenge Higher Leagues!"></li><li class="splide__slide splide__slide--clone is-prev" id="splide01-clone06" role="tabpanel" aria-roledescription="slide" aria-label="7 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_07.jpeg" title="Fight For Prizes!"></li><li class="splide__slide is-active is-visible" id="splide01-slide01" role="tabpanel" aria-roledescription="slide" aria-label="1 of 7" style="margin-right: 2em; width: calc(100% + 0em);"><img class="img-fluid" src="./images/3/Screenshot_01.jpeg" title="Unique Match3 Puzzle RPG"></li>
+                      <li class="splide__slide is-next" id="splide01-slide02" role="tabpanel" aria-roledescription="slide" aria-label="2 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_02.jpeg" title="Use Skills &amp; Beat Enemies!"></li>
+                      <li class="splide__slide" id="splide01-slide03" role="tabpanel" aria-roledescription="slide" aria-label="3 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_03.jpeg" title="Build Your Champion Team!"></li>
+                      <li class="splide__slide" id="splide01-slide04" role="tabpanel" aria-roledescription="slide" aria-label="4 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_04.jpeg" title="Collect Various Champions!"></li>
+                      <li class="splide__slide" id="splide01-slide05" role="tabpanel" aria-roledescription="slide" aria-label="5 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_05.jpeg" title="Upgrade Axies &amp; Champions"></li>
+                      <li class="splide__slide" id="splide01-slide06" role="tabpanel" aria-roledescription="slide" aria-label="6 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_06.jpeg" title="Chanllenge Higher Leagues!"></li>
+                      <li class="splide__slide" id="splide01-slide07" role="tabpanel" aria-roledescription="slide" aria-label="7 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_07.jpeg" title="Fight For Prizes!"></li>
+                    <li class="splide__slide splide__slide--clone is-active" id="splide01-clone07" role="tabpanel" aria-roledescription="slide" aria-label="1 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_01.jpeg" title="Unique Match3 Puzzle RPG"></li><li class="splide__slide splide__slide--clone" id="splide01-clone08" role="tabpanel" aria-roledescription="slide" aria-label="2 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_02.jpeg" title="Use Skills &amp; Beat Enemies!"></li><li class="splide__slide splide__slide--clone" id="splide01-clone09" role="tabpanel" aria-roledescription="slide" aria-label="3 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_03.jpeg" title="Build Your Champion Team!"></li><li class="splide__slide splide__slide--clone" id="splide01-clone10" role="tabpanel" aria-roledescription="slide" aria-label="4 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_04.jpeg" title="Collect Various Champions!"></li><li class="splide__slide splide__slide--clone" id="splide01-clone11" role="tabpanel" aria-roledescription="slide" aria-label="5 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_05.jpeg" title="Upgrade Axies &amp; Champions"></li><li class="splide__slide splide__slide--clone" id="splide01-clone12" role="tabpanel" aria-roledescription="slide" aria-label="6 of 7" style="margin-right: 2em; width: calc(100% + 0em);" aria-hidden="true"><img class="img-fluid" src="./images/3/Screenshot_06.jpeg" title="Chanllenge Higher Leagues!"></li></ul>
+                  </div>
+                <ul class="splide__pagination splide__pagination--ltr" role="tablist" aria-label="Select a slide to show"><li role="presentation"><button class="splide__pagination__page is-active" type="button" role="tab" aria-controls="splide01-slide01" aria-label="Go to slide 1" aria-selected="true"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide02" aria-label="Go to slide 2" tabindex="-1"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide03" aria-label="Go to slide 3" tabindex="-1"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide04" aria-label="Go to slide 4" tabindex="-1"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide05" aria-label="Go to slide 5" tabindex="-1"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide06" aria-label="Go to slide 6" tabindex="-1"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="splide01-slide07" aria-label="Go to slide 7" tabindex="-1"></button></li></ul></div>
+              </div>
+            </div>
+          </section>
+          <section id="menu4" class="main-section container-fluid">
+            <div class="p-2 px-1 container flex-fill text-center flex-fill text-center d-block d-md-none d-lg-none d-xl-none d-xxl-none">
+              <div class="row position-relative">
+                <div class="col plate-land" style="z-index: 500;">
+                  <p><img class="img-fluid" src="./images/4/txt_backstory.png" style="width: 10em;"></p>
+                  <p>IN THE HEART OF TRANQUIL LUNACIA, DARKNESS DESCENDS AS CHIMERA INVADE.</p>
+                  <p>YET THE LIGHT OF HOPE NEVER FADES AWAY ..AXIES EMBARK ON A JOURNEY TO SUMMON LEGENDARY CHAMPIONS.</p>
+                  <p>IT IS TIME TO FLIP THE WHEEL OF FATE.. AXIES MARCH TOWARD THE BATTLEFIELD RIDING ON CHAMPIONS!</p>
+                </div>
+                <div class="col position-absolute top-0 start-50 translate-middle-x" style="z-index: 10;">
+                  <img class="img-fluid" src="./images/4/scroll_h.png">
+                </div>
+              </div>
+            </div>
+            <div class="p-0 container flex-fill text-center flex-fill text-center d-sm-none d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+              <div class="row position-relative">
+                <div class="col plate-land" style="z-index: 500;">
+                  <p><img class="img-fluid" src="./images/4/txt_backstory.png" style="width: 20em;"></p>
+                  <p>IN THE HEART OF TRANQUIL LUNACIA, DARKNESS DESCENDS AS CHIMERA INVADE.</p>
+                  <p>YET THE LIGHT OF HOPE NEVER FADES AWAY ..AXIES EMBARK ON A JOURNEY TO SUMMON LEGENDARY CHAMPIONS.</p>
+                  <p>IT IS TIME TO FLIP THE WHEEL OF FATE.. AXIES MARCH TOWARD THE BATTLEFIELD RIDING ON CHAMPIONS!</p>
+                </div>
+                <div class="col position-absolute top-0 start-50 translate-middle-x" style="z-index: 10;">
+                  <img class="img-fluid" src="./images/4/scroll.png">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="menu5" class="main-section container-fluid position-relative">
+            <div class="p-2 px-5 container flex-fill text-center">
+              <div class="row">
+                <div class="menu5-title">
+                  <p>FIND THE BEST</p>
+                  <p>CHAMPION</p>
+                </div>
+                <div class="menu5-title-sub">
+                  <p>TO PROTECT LUNACIA</p>
+                </div>
+              </div>
+              <div class="row d-block d-lg-none d-xl-none d-xxl-none">
+                <div class="col px-0 text-center">
+                  <div class="p-0"><img class="img-fluid" id="img_champs" src="./images/5/img_champion.png"></div>
+                </div>
+                <div class="p-2 token-el">
+                  <div class="p-2 d-flex">
+                    <div class="me-3 body-name">ARMS</div>
+                    <div class="my-1 py-1 px-2 arms-label flex-row align-self-center">
+                      <p style="margin: 0px;">40 UNIQUE</p><p style="margin: 0px;">SKILLS</p>
+                    </div>
+                  </div>
+                  <div class="p-2 d-flex body-desc text-start"><p>Arm determines Champion's Skills.</p></div>
+                  <div class="p-2 d-flex body-list">
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_arm1.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_arm2.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_arm3.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_arm4.png"></div>
+                  </div>
+                </div>
+                <div class="p-2 mt-2 token-el">
+                  <div class="p-2 d-flex body-name">BODYS</div>
+                  <div class="p-2 d-flex body-desc text-start"><p>Body determines the Champion's three attributes.</p></div>
+                  <div class="p-2 d-flex body-list">
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_body1.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_body2.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_body3.png"></div>
+                  </div>
+                </div>
+                <div class="p-2 mt-2 token-el">
+                  <div class="p-2 d-flex body-name">ACCESSORYS</div>
+                  <div class="p-2 d-flex body-desc text-start"><p>Accessory determines the Champion's stats and decorates its appearance.</p></div>
+                  <div class="p-2 d-flex body-list">
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_acc1.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_acc2.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_acc3.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_acc4.png"></div>
+                  </div>
+                </div>
+                <div class="p-2 mt-2 token-el">
+                  <div class="p-2 d-flex body-name">LEGS</div>
+                  <div class="p-2 d-flex body-desc text-start"><p>Leg enhances the Champion's stats and determines its movement.</p></div>
+                  <div class="p-2 d-flex body-list">
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_leg1.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_leg2.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_leg3.png"></div>
+                    <div class="body-part"><img class="img-fluid" src="./images/5/slot_leg4.png"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 px-0 d-md-none d-sm-none d-none d-lg-block d-xl-block d-xxl-block">
+                  <div class="p-2 token-el">
+                    <div class="p-2 d-flex">
+                      <div class="me-3 body-name">ARMS</div>
+                      <div class="my-1 py-1 px-2 arms-label flex-row align-self-center">
+                        <p style="margin: 0px;">40 UNIQUE</p><p style="margin: 0px;">SKILLS</p>
+                      </div>
+                    </div>
+                    <div class="p-2 d-flex body-desc text-start"><p>Arm determines Champion's Skills.</p></div>
+                    <div class="p-2 d-flex body-list">
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_arm1.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_arm2.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_arm3.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_arm4.png"></div>
+                    </div>
+                  </div>
+                  <div class="p-2 mt-2 token-el">
+                    <div class="p-2 d-flex body-name">BODYS</div>
+                    <div class="p-2 d-flex body-desc text-start"><p>Body determines the Champion's three attributes.</p></div>
+                    <div class="p-2 d-flex body-list">
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_body1.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_body2.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_body3.png"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 px-0 d-md-none d-sm-none d-none d-lg-block d-xl-block d-xxl-block">
+                  <div class="p-0"><img class="img-fluid" id="img_champs" src="./images/5/img_champion.png"></div>
+                </div>
+                <div class="col-3 px-0 d-md-none d-sm-none d-none d-lg-block d-xl-block d-xxl-block">
+                  <div class="p-2 token-el">
+                    <div class="p-2 d-flex body-name">ACCESSORYS</div>
+                    <div class="p-2 d-flex body-desc text-start"><p>Accessory determines the Champion's stats and decorates its appearance.</p></div>
+                    <div class="p-2 d-flex body-list">
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_acc1.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_acc2.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_acc3.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_acc4.png"></div>
+                    </div>
+                  </div>
+                  <div class="p-2 mt-2 token-el">
+                    <div class="p-2 d-flex body-name">LEGS</div>
+                    <div class="p-2 d-flex body-desc text-start"><p>Leg enhances the Champion's stats and determines its movement.</p></div>
+                    <div class="p-2 d-flex body-list">
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_leg1.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_leg2.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_leg3.png"></div>
+                      <div class="body-part"><img class="img-fluid" src="./images/5/slot_leg4.png"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid position-absolute bottom-0 start-0 copyright">
+              <div class="d-flex flex-column mb-0 text-center py-2">
+                <p class="mb-1">© 2024 Baligames Corp. All rights reserved.</p>
+                <p class="mb-0"><a href="mailto: help@baligames.xyz">help@baligames.xyz</a></p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+</body>
+</html>
+
+<style>
+    nav {
+      background-color:rgba(0,0,0,.5);
+      font-family: 'Passion One', sans-serif;
+      font-weight: bold;
+      font-size: x-large;
+      font-style: italic;
+    }
+
+    section {
+      font-family: 'Noto Sans', serif;
+      font-weight: bold;
+      font-size: x-large;
+    }
+
+    div.token-name {
+      font-family: 'Passion One', sans-serif;
+      font-weight: 700;
+      font-size: xx-large;
+      font-style: italic;
+    }
+    div.token-desc {
+      font-family: 'Noto Sans', serif;
+      font-weight: bold;
+      font-size: large;
+    }
+
+    section.main-section {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+      min-height: 400px;
+      background-position-x: center;
+    }
+
+    div#token-list {
+      flex-direction: column!important;
+    }
+
+    section#menu1 {
+      background-image: url( "./images/1/bg_01.jpg" );
+    }
+
+    section#menu2 {
+      background-image: url( "./images/2/bg.jpg" );
+    }
+
+    section#menu3 {
+      background-image: url( "./images/3/bg_3tile.jpg" );
+    }
+
+    section#menu4 {
+      background-image: url( "./images/4/bg_4.png" );
+      font-family: 'Passion One', serif;
+      font-weight: 700;
+      font-size: 1.8rem;
+      font-style: italic;
+      color: #583214;
+      line-height: 1.0;
+    }
+
+    section#menu5 {
+      background-image: url( "./images/5/bg_tile_05.jpg" );
+    }
+
+    .nav-link {
+      --bs-nav-link-hover-color:#fff;
+    }
+
+    a.btn-menu1 {
+      color: rgb(255,244,0);
+    }
+    li.menu1:hover {
+      color: #fff;
+    }
+    li.menu1.active a.btn-menu1 {
+      color: #fff;
+      text-shadow:
+        0 0 1rem #fff,
+        0 0 1.3rem rgb(255,244,0);
+    }
+    li.menu1.active {
+      border-bottom: 2px solid rgb(255,244,0);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    a.btn-menu2 {
+      color: rgb(0,165,227);
+    }
+    li.menu2:hover {
+      color: #fff;
+    }
+    li.menu2.active a.btn-menu2 {
+      color: #fff;
+      text-shadow:
+        0 0 1rem #fff,
+        0 0 1.3rem rgb(0,165,227);
+    }
+    li.menu2.active {
+      border-bottom: 2px solid rgb(0,165,227);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    a.btn-menu3 {
+      color: rgb(29,206,0);
+    }
+    li.menu3:hover {
+      color: #fff;
+    }
+    li.menu3.active a.btn-menu3 {
+      color: #fff;
+      text-shadow:
+        0 0 1rem #fff,
+        0 0 1.3rem rgb(29,206,0);
+    }
+    li.menu3.active {
+      border-bottom: 2px solid rgb(29,206,0);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    a.btn-menu4 {
+      color: rgb(194,38,38);
+    }
+    li.menu4:hover {
+      color: #fff;
+    }
+    li.menu4.active a.btn-menu4 {
+      color: #fff;
+      text-shadow:
+        0 0 1rem #fff,
+        0 0 1.3rem rgb(194,38,38);
+    }
+    li.menu4.active {
+      border-bottom: 2px solid rgb(194,38,38);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    a.btn-menu5 {
+      color: rgb(150,0,255);;
+    }
+    li.menu5:hover {
+      color: #fff;
+    }
+    li.menu5.active a.btn-menu5{
+      color: #fff;
+      text-shadow:
+        0 0 1rem #fff,
+        0 0 1.3rem rgb(150,0,255);
+    }
+    li.menu5.active {
+      border-bottom: 2px solid rgb(150,0,255);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .token-el {
+      background-color: rgba(0,0,0,.3);
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+    .splide__pagination {
+      bottom: -1.5em;
+    }
+
+    .splide__pagination__page {
+      background-color: rgb(10,70,24);
+      height: 12px;
+      width: 12px;
+      margin: 6px;
+      opacity: 1.0;
+    }
+    .splide__pagination__page.is-active {
+      background-image: rgba(255,255,255,1);
+      box-shadow: 0 0 5px rgb(82,253,0), 0 0 3px rgb(82,253,0) inset;
+    }
+
+    .body-name {
+      font-family: 'Passion One', sans-serif;
+      font-weight: 700;
+      font-size: xx-large;
+      font-style: italic;
+      color: #E1A956;
+    }
+
+    .body-desc {
+      font-family: 'Noto Sans', serif;
+      font-style: italic;
+      font-size: large;
+      color: #8A6AA1;
+      line-height: 1.0;
+    }
+
+    .body-part {
+      background-color: rgb(28,28,28);
+      border: rgb(64,61,57) 3px solid;
+      border-radius: .5em;
+      margin-right: .2em;
+    }
+    .body-part img {
+      width:3.5rem;
+    }
+
+    .arms-label {
+      line-height: 0.8;
+      font-size: medium;
+      font-weight: 700;
+      background-color: rgb(150,0,255);
+      color: #fff;
+      transform: skewX(-10deg);
+    }
+
+    .menu5-title {
+      font-family: 'Passion One', sans-serif;
+      font-style: italic;
+      font-weight: 700;
+      color: #E1A956;
+      font-size: 3.5em;
+      line-height: 0.5;
+    }
+
+    .menu5-title-sub {
+      font-family: 'Passion One', sans-serif;
+      font-style: italic;
+      font-weight: 700;
+      color: rgb(150,0,255);
+      font-size: xx-large;
+      line-height: 1.0;
+    }
+
+    .copyright {
+      background-color:rgba(0,0,0,.5);
+      font-family: 'Passion One', sans-serif;
+      font-style: italic;
+      color: #fff;
+      font-size: x-large;
+      line-height: 1.0;
+      font-weight: 900;
+      line-height: 1em;
+    }
+
+    @media screen and (min-width: 10px) {
+      div#token-list {
+        flex-direction: column!important;
+      }
+      .menu5-title {
+        font-size: 1.5em;
+      }
+      .menu5-title-sub {
+        font-size: small;
+      }
+      section#menu4 {
+        min-height: 700px;
+      }
+      .plate-land {
+        font-size: x-small;
+        margin: 3rem 2rem 0 2rem;
+      }
+      .token-img {
+        width: 3rem;
+      }
+      .menu1-images {
+        height: 200px;
+      }
+      .menu1-btn {
+        margin-top: 1em;
+      }
+    }
+
+    @media screen and (min-width: 300px) {
+      .plate-land {
+        font-size: small;
+        margin: 4rem 3rem 0 3rem;
+      }
+    }
+
+    @media screen and (min-width: 350px) {
+      .plate-land {
+        font-size: large;
+        margin: 4rem 3rem 0 3rem;
+      }
+    }
+
+    @media screen and (min-width: 400px) {
+      div#token-list {
+        flex-direction: column!important;
+      }
+      .menu5-title {
+        font-size: 2.0em;
+      }
+      .menu5-title-sub {
+        font-size: medium;
+      }
+      section#menu4 {
+        min-height: 700px;
+      }
+      .token-img {
+        width: 5rem;
+      }.menu1-images {
+        height: 200px;
+      }
+      .menu1-btn {
+        margin-top: 3em;
+      }
+
+    }
+
+    @media screen and (min-width: 450px) {
+      .plate-land {
+        font-size: x-large;
+        margin: 6rem 6rem 0 6rem;
+      }
+    }
+
+    @media screen and (min-width: 576px) {
+      div#token-list {
+        flex-direction: column!important;
+      }
+      .menu5-title {
+        font-size: 2.5em;
+      }
+      .menu5-title-sub {
+        font-size: large;
+      }
+      section#menu4 {
+        min-height: 700px;
+      }
+      .plate-land {
+        margin: 5rem 5rem 0 5rem;
+        font-size: xx-large;
+      }
+      .token-img {
+        width: 5rem;
+      }
+      .menu1-images {
+        height: 303px;
+      }
+      .menu1-btn {
+        margin-top: 3em;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      div#token-list {
+        flex-direction: column!important;
+      }
+      .menu5-title {
+        font-size: 2.5em;
+      }
+      .menu5-title-sub {
+        font-size: large;
+      }
+      .plate-land {
+        padding: 2rem 8rem 0 8rem;
+        font-size: large;
+      }
+      .token-img {
+        width: 5rem;
+      }
+      .menu1-images {
+        height: 303px;
+      }
+      .menu1-btn {
+        margin-top: 5em;
+      }
+      section#menu4 {
+        min-height: 800px;
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+      div#token-list {
+        flex-direction: row!important;
+      }
+      .menu5-title {
+        font-size: 3.3em;
+      }
+      .menu5-title-sub {
+        font-size: x-large;
+      }
+      .plate-land {
+        padding: 2rem 8rem 0 8rem;
+        font-size: x-large;
+      }
+      .menu1-images {
+        height: 303px;
+      }
+      .menu1-btn {
+        margin-top: 14em;
+      }
+      section#menu4 {
+        min-height: 800px;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      div#token-list {
+        flex-direction: row!important;
+      }
+      .menu5-title {
+        font-size: 3.5em;
+      }
+      .menu5-title-sub {
+        font-size: xx-large;
+      }
+      .plate-land {
+        padding: 3rem 12rem 0 12rem;
+        font-size: xx-large;
+      }
+      .menu1-images {
+        height: 303px;
+      }
+      .menu1-btn {
+        margin-top: 15em;
+      }
+    }
+
+    @media screen and (min-width: 1400px) {
+      div#token-list {
+        flex-direction: row!important;
+      }
+      .menu5-title {
+        font-size: 3.5em;
+      }
+      .menu5-title-sub {
+        font-size: xx-large;
+      }
+      .plate-land {
+        padding: 2rem 12rem 0 12rem;
+        font-size: xx-large;
+      }
+      .menu1-images {
+        height: 303px;
+      }
+      .menu1-btn {
+        margin-top: 15em;
+      }
+    }
+
+    .navbar-toggler-icon {
+      --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1.0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }
+
+    .list-group-item {
+      --bs-list-group-bg: rgba(255,255,255,0.0);
+      --bs-list-group-border-width: 0px;
+    }
+
+  </style>
