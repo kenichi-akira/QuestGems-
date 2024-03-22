@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameStartScreen">
+        <h1>Bem-vindo ao Jogo!</h1>
+        <p>Clique no botão abaixo para começar.</p>
+        <button id="startGameButton">Iniciar Jogo</button>
+    </div>
+    <div id="gameArea" style="display:none;">
+        <!-- Aqui vai o conteúdo do jogo -->
+        <p>Jogo iniciado!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+CSS (style.css)
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#gameStartScreen {
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+JavaScript (script.js)
+javascript
+Copy code
+document.getElementById('startGameButton').addEventListener('click', function() {
+    document.getElementById('gameStartScreen').style.display = 'none'; // Esconde a tela inicial
+    document.getElementById('gameArea').style.display = 'block'; // Mostra a área do jogo
+});
