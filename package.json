@@ -2,7 +2,7 @@
   "name": "questgems-",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "carousel\\index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
